@@ -43,6 +43,7 @@ android {
         jvmTarget = "17"
     }
     buildFeatures {
+        viewBinding = true
         compose = true
     }
     composeOptions {
@@ -65,6 +66,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("com.facebook.react:react-android")
+    implementation("androidx.compose.ui:ui-viewbinding:1.7.3")
     val hermesEnabled: String by rootProject
     if (hermesEnabled.toBooleanStrictOrNullCompat() == true) {
         implementation("com.facebook.react:hermes-android")
