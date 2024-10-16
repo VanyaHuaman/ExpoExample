@@ -1,0 +1,15 @@
+{
+  "name": "ExpoExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "yarn react-native start"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "expo": "^51.0.38",
+    "metro-config": "^0.81.0",
+    "react": "18.2.0",
+    "react-native": "^0.74.5"
+  }
+}
