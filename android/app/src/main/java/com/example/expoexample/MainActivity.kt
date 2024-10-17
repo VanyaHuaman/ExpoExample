@@ -69,8 +69,8 @@ fun MainScreen(navigationEvent: (navRoute: NavigationRoute) -> Unit) {
     ) {
         Text(
             text = "This is just to test launching from a native screen. " +
-                    "If the Expo or React Native activities then we would have the " +
-                    "application launch straight into one of those",
+                    "If this was a single Expo or React Native app then we would have the " +
+                    "application launch straight into that activity",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(36.dp)
