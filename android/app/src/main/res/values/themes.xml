@@ -2,4 +2,5 @@
 <resources>
 
     <style name="Theme.ExpoExample" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.ReactNativeTheme" parent="Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen" />
 </resources>

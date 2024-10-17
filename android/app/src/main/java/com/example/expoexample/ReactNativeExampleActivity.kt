@@ -1,11 +1,8 @@
 package com.example.expoexample
 
-import android.app.Activity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.facebook.react.PackageList
-import expo.modules.ReactActivityDelegateWrapper
-import com.facebook.react.ReactActivity
-import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.ReactInstanceManager
 import com.facebook.react.ReactPackage
 import com.facebook.react.ReactRootView
@@ -13,7 +10,7 @@ import com.facebook.react.common.LifecycleState
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler
 import com.facebook.soloader.SoLoader
 
-class ReactNativeExampleActivity: Activity(), DefaultHardwareBackBtnHandler {
+class ReactNativeExampleActivity : AppCompatActivity(), DefaultHardwareBackBtnHandler {
     private lateinit var reactRootView: ReactRootView
     private lateinit var reactInstanceManager: ReactInstanceManager
 
@@ -38,5 +35,4 @@ class ReactNativeExampleActivity: Activity(), DefaultHardwareBackBtnHandler {
     override fun invokeDefaultOnBackPressed() {
         super.onBackPressed()
     }
-
 }
